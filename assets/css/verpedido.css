@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'BungeeInline Regular';
+    src: url('../font/BungeeInline-Regular.ttf'); 
+}
+@font-face {
+    font-family: 'GloriaHallelujah';
+        src: url('../font/GloriaHallelujah.ttf')
+}
+@font-face {
+    font-family: 'WorkSans-Regular';
+    src: url('../font/WorkSans-Regular.ttf');
+}
+
+
+#mainNav {
+    background-color: white;
+    text-align: center;
+  }
+  
+  #mainNav .navbar-toggler {
+    font-size: 12px;
+    right: 0;
+    padding: 13px;
+    text-transform: uppercase;
+    color: white;
+    border: 0;
+    background-color: green;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+  
+  #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: green;
+  }
+  
+  @media (min-width: 992px) {
+    
+    #mainNav .navbar-brand {
+      -webkit-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+    #mainNav .navbar-nav .nav-item .nav-link {
+      padding: 1.1em 1em !important;
+    }
+    #mainNav.navbar-shrink {
+      padding-top: 0;
+      padding-bottom: 0;
+      background-color: white;
+    }
+    #mainNav.navbar-shrink .navbar-brand {
+      font-size: 1.25em;
+      padding: 12px 0;
+    }
+  }
+
+#cebola {
+    width: 80%;
+    text-align: center;
+   
+}
+#cebola {
+    width: 65%;
+    text-align: center;
+   
+}
+
+#cebola {
+    font-family: 'BungeeInline Regular';
+    color: green;
+    font-size:2.5em;
+    transition: color 2.0s;
+    transition: font-size 2.0s;
+    text-align: center;
+    display: flex;
+}
+#cebola h1:hover{
+    color: green;
+    font-size: 2em;
+}
+
+
+div{
+    color:white;
+    text-align: left;
+    padding: 0 0.5em;
+    
+ }
+  
+section{
+  text-align: center;
+}
+
+#title{
+    text-align: center;
+}
+
+#butom{
+    padding:0 0.5em; 
+}
+
+
+@media screen and (max-width: 600px) {
+
+    #h1{
+        margin-top:3em; 
+    }
+
+}
+
+@media screen and (max-width: 379px) {
+    #h1{
+        margin-top:3em; 
+    }
+
+}

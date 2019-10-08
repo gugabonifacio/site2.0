@@ -1,0 +1,354 @@
+@font-face {
+    font-family: 'BungeeInline Regular';
+    src: url('../font/BungeeInline-Regular.ttf'); 
+}
+@font-face {
+    font-family: 'GloriaHallelujah';
+        src: url('../font/GloriaHallelujah.ttf')
+}
+@font-face {
+    font-family: 'WorkSans-Regular';
+    src: url('../font/WorkSans-Regular.ttf');
+}
+
+#mainNav {
+    background-color: white;
+    text-align: center;
+  }
+  
+  #mainNav .navbar-toggler {
+    font-size: 12px;
+    right: 0;
+    padding: 13px;
+    text-transform: uppercase;
+    color: white;
+    border: 0;
+    background-color: green;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+  
+  #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: green;
+  }
+  
+  @media (min-width: 992px) {
+    
+    #mainNav .navbar-brand {
+      -webkit-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+    #mainNav .navbar-nav .nav-item .nav-link {
+      padding: 1.1em 1em !important;
+    }
+    #mainNav.navbar-shrink {
+      padding-top: 0;
+      padding-bottom: 0;
+      background-color: white;
+    }
+    #mainNav.navbar-shrink .navbar-brand {
+      font-size: 1.25em;
+      padding: 12px 0;
+    }
+  }
+
+#cebola {
+    width: 80%;
+    text-align: center;
+   
+}
+#cebola {
+    width: 65%;
+    text-align: center;
+   
+}
+
+#cebola {
+    font-family: 'BungeeInline Regular';
+    color: green;
+    text-align: center;
+    display: flex;
+}
+h1 a{
+    color: red;
+}
+h1 a:hover{
+    color: red;
+}
+h2 {
+    padding-top: 1em;
+    color:green;
+    text-align: center;
+    font-size: 2.0em;
+    font-family: 'GloriaHallelujah';
+}
+h2:hover{
+    color: green;
+    font-size: 3em;
+}
+h1 a{
+    color: red;
+}
+h2 a{
+    color: red;
+}
+
+h3{
+    padding-top: 1em;
+    color:green;
+    text-align: center;
+    font-size: 2.0em;
+    font-family: 'GloriaHallelujah';
+}
+
+
+#Boquinha{
+    background-image: url(../img/Pizzas-e-Vinhos-1180x517.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px;
+}
+#jovem{
+    background-image: url(../img/braz-pizzaria-01.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0px 200px 0px;
+    margin: 5px 0px; 
+}
+
+
+#crinl{
+    background-image: url(../img/braz-pizzaria-02.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0px 100px 0px;
+     margin: 5px 0px;
+}
+#briks{
+     background-image: url(../img/braz-pizzaria-04.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0px 100px 0px;
+     margin: 5px 0px;
+}
+#pit{
+     background-image: url(../img/braz-pizzaria-05.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0px 100px 0px;
+     margin: 5px 0px;
+}
+#alca{
+    background-image: url(../img/braz-pizzaria-apaixonados-por-pizza.png);
+    background-size: cover;
+    background-position: left;
+    padding: 150px 0px 0px 150px;
+     margin: 5px 0px;
+}
+#cebola h1 {
+    margin: 0 auto;
+}
+
+#cascao a {
+    display: block;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 10px 0px;
+    color:green;
+}
+
+#monic{
+    display: flex;
+    background-color: #FFF;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin: 3px auto;
+    padding: 9px 0px;
+    font-size: 1em;
+    width: 100px;
+    text-align: center;
+}
+#melancia{
+    display: block;
+    background-color: #FFF;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin: 3px auto;
+    padding: 9px 0px;
+    font-size: 1em;
+    width: 100px;
+    text-align: center;
+}
+#pipi{
+    background-color: green;
+}
+#las P{
+    font-family: 'WorkSans-Regular';
+}
+
+#teste{
+    background-image: url(../img/braz-pizzaria-apaixonados-por-pizza.png);
+    background-size: cover;
+    background-position: left;
+    padding: 150px 0px 0px 150px;
+    margin: 5px 0px;
+}
+#Cardapio h1 {
+    color: red;
+    text-align: center;
+    font-size: 2.0em;
+    font-family: 'GloriaHallelujah';
+}    
+#Cardapio ol li{
+    color: red;
+    font-size: 1.1em;
+    font-family: 'WorkSans-Regular';
+    
+}
+#Cardapio p{
+    color: green;
+    font-family: 'WorkSans-Regular';
+}
+#Cardapio h2{
+    padding-top: 2em;
+    color:green;
+    text-align: center;
+    font-size: 2.0em;
+    font-family: 'GloriaHallelujah';
+}
+
+
+
+#imagem{
+    background-image: url(../img/porcoes.jpg);
+    background-size: cover;
+    background-position: left;
+    padding: 150px 0px 0px 150px;
+    margin: 5px 0px;
+}
+#foto{
+    background-image: url(../img/porcoes2.jpg);
+    background-size: cover;
+    background-position: left;
+    padding: 150px 0px 0px 150px;
+    margin: 5px 0px;           
+}
+#Porcoes h2{
+    color:green;
+    text-align: center;
+    font-size: 2.0em;
+    font-family: 'GloriaHallelujah';
+}
+#Porcoes ul li{
+    color: red;
+    font-size: 1.1em;
+    font-family: 'WorkSans-Regular';
+}
+#Porcoes p{
+    color: darkgreen;
+    font-family: 'WorkSans-Regular';
+}
+#Bebidas h1{
+    color: green;
+    text-align: center;
+    font-size: 2.0em;
+    font-family: 'GloriaHallelujah';
+}
+#Bebidas ul li{
+    color: red;
+    font-size: 1.1em;
+    font-family: 'WorkSans-Regular';
+}
+#suco{
+    background-image: url(../img/suco.jpg);
+    background-size: cover;
+    background-position: left;
+    padding: 150px 0px 0px 150px;
+    margin: 5px 0px;
+}
+#refri{
+    background-image: url(../img/refrigerante-1519671522034_v2_900x506.jpg);
+    background-size: cover;
+    background-position: left;
+    padding: 150px 0px 0px 150px;
+    margin: 5px 0px;
+}
+#agua{
+    background-image: url(../img/imagem-blog-o-que-e-agua-mineral-1.jpg);
+    background-size: cover;
+    background-position: left;
+    padding: 150px 0px 0px 150px;
+    margin: 5px 0px;
+}
+#bebida{
+    background-image: url(../img/bebidas.jpg);
+    background-size: cover;
+    background-position: left;
+    padding: 150px 0px 0px 150px;
+    margin: 5px 0px;
+}
+
+
+body{
+    background-color:white;
+}
+
+
+#form{
+    
+        width: 80%;
+        margin: 30px auto;
+    
+}
+#cardapio_pizza a {
+        color: rgb(143, 45, 45);
+        text-align: right;
+        font-size: 1.0em;
+        
+}
+
+
+#form{
+    text-align: center;
+    overflow: auto;
+    color:black;
+    padding-top: 3em;
+}
+#h1{
+    opacity: 0.8;
+}
+form {
+    width: 82%;
+    margin: 30px auto;
+    text-align: left;
+}
+
+.form-control:active, .form-control:focus {
+    -webkit-box-shadow: 0 0 0 0.2rem #15a82e !important;
+    box-shadow: 0 0 0 0.2rem #15a82e !important;
+  }
+
+footer{
+    background-color: green;
+}
+
+.footer {
+    padding: 25px 0;
+    text-align: center;
+    color: white;
+  }
+  
+  .footer span.copyright {
+    font-size: 90%;
+    line-height: 40px;
+    text-transform: none;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+  
+  .footer ul.quicklinks {
+    font-size: 90%;
+    line-height: 40px;
+    margin-bottom: 0;
+    text-transform: none;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
